@@ -1,0 +1,49 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://w3.org">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://w3.org">
+      <style>
+        .container {
+          width: 800px;
+          height: 400px;
+          background: #000;
+          overflow: hidden;
+          position: relative;
+          border-radius: 20px;
+        }
+        .bg {
+          position: absolute;
+          width: 400%;
+          height: 400%;
+          top: -150%;
+          left: -150%;
+          background: repeating-linear-gradient(
+            45deg,
+            #78bbc1 0px,
+            #dfdada 150px,
+            #ff4d2e 300px,
+            #ff8c00 450px,
+            #78bbc1 600px
+          );
+          background-size: 800px 800px;
+          filter: blur(40px) saturate(1.8) brightness(0.7);
+          animation: spin 20s linear infinite;
+        }
+        .overlay {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(rgba(0,255,65,0.05) 50%, transparent 50%);
+          background-size: 100% 4px;
+          pointer-events: none;
+        }
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+      </style>
+      <div class="container">
+        <div class="bg"></div>
+        <div class="overlay"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
