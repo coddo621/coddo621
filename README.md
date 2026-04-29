@@ -10,7 +10,7 @@
 ---
 
 ## <a name="about-me"></a> About Me
-Hi, I’m **Coddo**, a 20-year-old **Computer Science** student currently pursuing my undergraduate degree while working as an aspiring web designer and developer, focused on creating immersive and functional digital experiences.
+Hi, I’m **Coddo**, a **Computer Science** student currently pursuing my undergraduate degree while working as an aspiring web designer and developer, focused on creating immersive and functional digital experiences.
 
 Outside of my studies and development work, I spend my time on:
 * **Guitar** – Playing and exploring new sounds.
